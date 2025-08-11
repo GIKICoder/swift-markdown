@@ -32,7 +32,7 @@ The markup tree provided by this package is comprised of immutable/persistent, t
   end
 
   # Dependencies
-  s.dependency 'cmark-gfm-pod'
+  s.dependency 'swift-cmark-pod'
   
 
   # Framework configuration
