@@ -13,8 +13,7 @@ The markup tree provided by this package is comprised of immutable/persistent, t
   s.author           = { 'GIKICoder' => 'giki.biu@gmail.com' }
   s.source           = { :git => 'https://github.com/GIKICoder/swift-markdown.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '13.0'
-  s.osx.deployment_target = '10.15'
+  s.ios.deployment_target = '12.0'
 
   s.swift_version = '5.7'
 
