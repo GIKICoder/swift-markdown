@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'swift-markdown-pod'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'A Swift package for parsing, building, editing, and analyzing Markdown documents.'
   s.description      = <<-DESC
 Swift Markdown is a Swift package for parsing, building, editing, and analyzing Markdown documents.
@@ -32,6 +32,9 @@ The markup tree provided by this package is comprised of immutable/persistent, t
 
   # Dependencies
   s.dependency 'swift-cmark-pod'
+  
+  # Module name (must be valid C99 identifier)
+  s.module_name   = 'Markdown'
   
 
   # Framework configuration
